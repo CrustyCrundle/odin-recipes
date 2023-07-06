@@ -1,0 +1,113 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: slategray;
+}
+
+img {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-shadow: 1px 1px 2px rgb(179, 179, 179);
+    color:rgb(78, 60, 35);
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.recipe-card {
+    width: 800px;
+    background-color: rgb(151, 202, 151);
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px darkgray;
+}
+
+.recipe-content {
+    padding: 20px;
+    display: inline-block;
+    width: 580px;
+    vertical-align: top;
+}
+
+.recipe-card h2,
+.recipe-card a {
+    text-transform: uppercase;
+}
+
+.recipe-card.feature {
+    border: 2px solid tan;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li h2 {
+    font-size: 16px;
+}
+
+.recipe-card a {
+    background-color: rgb(2, 175, 175);
+    color:black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recipe-page {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.recipe-intro,
+.ingredients-card,
+.steps-card {
+    border: 2px solid tan;
+    margin: 20px;
+    box-shadow: 1px 1px 4px darkgray;
+    background-color: rgb(151, 202, 151);;
+}
+
+.recipe-info {
+    display: inline-block;
+    width: 380px;
+}
+
+.ingredients-list {
+    margin: 20px;
+}
+
+.ingredients-list li {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.steps-list { 
+    list-style: none;
+}
+
+.steps-list li {
+    margin: 20px;
+}
+
+.section-title {
+    margin: 10px;
+    font-size: 32px;
+}
