@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Courier New', Courier, monospace;
     background-color: slategray;
 }
 
@@ -65,6 +65,7 @@ ul li h2 {
 .recipe-card a {
     background-color: rgb(2, 175, 175);
     color:black;
+    border: 2px solid black;
     text-decoration: none;
     padding: 10px 12px;
     display: inline-block;
@@ -105,6 +106,16 @@ ul li h2 {
 
 .steps-list li {
     margin: 20px;
+}
+
+.recipe-title {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-size: 12px;
+    font-style: italic;
 }
 
 .section-title {
